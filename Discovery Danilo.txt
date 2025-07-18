@@ -231,7 +231,7 @@ Find Common Words Between Two Sentences: Write a function that takes two sentenc
 
 3.2 API
 
-User Registration with Email Validation: Create a REST API endpoint to register users. Validate inputs (e.g., email format, password strength) in a function and store the data in an SQL database. Use conditional logic to check for duplicates, returning an appropriate message if the user is already registered.
+#User Registration with Email Validation: Create a REST API endpoint to register users. Validate inputs (e.g., email format, password strength) in a function and store the data in an SQL database. Use conditional logic to check for duplicates, returning an appropriate message if the user is already registered.
 
 Weather Data Fetcher: Build a REST API that fetches weather data for a city (using a public weather API) and stores it in a database. Create a function to retrieve and display the most recent weather information from the SQL database.
 
