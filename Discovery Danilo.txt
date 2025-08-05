@@ -1,0 +1,280 @@
+DISCOVERY
+
+The project is a study on becoming an expert in any programming language, consisting of 135 exercises. To achieve expertise, you need proficiency, which requires repeated practice. These exercises cover the paradigms commonly used in most programming languages.
+The exercises are divided into three sections: Discovery (Procedural Paradigm), Explorer (Functional Paradigm), and Expansion (Object-Oriented Paradigm). We’ll begin with the Discovery section, where the exercises are organized numerically. You’ll need to complete the initial exercises to solve the subsequent ones.
+I’m not sure which programming language you’re learning, but if you’re new to programming, start by reading about basic syntax and file management—specifically, how to create files, file extensions, and how to run files from the terminal. 
+The documentation is essential for understanding the syntax structure. This guide, along with the documentation, will help you learn efficiently, covering about 80% of the language's core concepts. As for the remaining 20%, don't worry about that for now.
+
+1.1 SEQUENTIAL
+
+#Temperature Converter: Write a program that converts a temperature from Celsius to Fahrenheit and Kelvin. Prompt the user to enter the temperature in Celsius and display the results.
+
+#Simple Interest Calculator: Create a program that calculates the simple interest based on user input for principal, rate of interest, and time (in years).
+
+#BMI Calculator: Ask the user for their weight in kilograms and height in meters. Calculate and display their Body Mass Index (BMI) with a brief message indicating the result (e.g., "Underweight," "Normal weight," "Overweight," etc., based on standard BMI categories).
+
+#Time Conversion: Write a program that converts a given number of minutes into hours and minutes. For instance, if the input is 135 minutes, the output should be 2 hours and 15 minutes.
+
+#Quadratic Equation Solver: Given coefficients a, b, and c for a quadratic equation Ax² + Bx + C = 0, compute the roots of the equation (real and complex solutions).
+
+#Simple Calculator: Create a program that takes two numbers and an operator (e.g., +, -, *, /) from the user and performs the operation, showing the result.
+
+#Average Score Calculator: Prompt the user for five test scores, calculate their average, and display it along with a message indicating their grade (e.g., "Pass" or "Fail").
+
+#Currency Converter: Write a program that converts an amount from one currency to another using a fixed conversion rate (for example, USD to EUR).
+
+#Age Calculator: Ask the user for their birth year and calculate their age based on the current year. Display a message based on their age group (e.g., child, teenager, adult, senior).
+
+#Character Counter: Write a program that asks the user for a word or sentence and outputs the number of characters (including spaces) in the input.
+
+#Area and Perimeter of a Rectangle: Get the length and width of a rectangle from the user, then calculate and display both the area and the perimeter.
+
+#Fuel Efficiency Calculator: Prompt the user to input the distance traveled (in miles or kilometers) and the amount of fuel used (in liters or gallons). Calculate and display the fuel efficiency (e.g., miles per gallon or kilometers per liter).
+
+#Compound Interest Calculator: Calculate the compound interest on a principal amount given the rate of interest, the number of times it is compounded per year, and the time in years.
+
+#Pythagorean Theorem Checker: Ask the user for three side lengths. Check if these can form a right triangle (i.e., if A² + B² = C²) and display an appropriate message.
+
+#Reverse a Number: Write a program that takes a positive integer as input and outputs its reverse (e.g., if the input is 1234, the output should be 4321).
+
+1.2 DECISION
+
+#Odd or Even Checker: Write a program that takes an integer from the user and checks if it is odd or even, displaying an appropriate message.
+
+#Leap Year Checker: Create a program that takes a year as input and determines whether it is a leap year, following the leap year rules (divisible by 4, but not by 100 unless also by 400).
+
+#Grade Evaluator: Prompt the user for a score (0-100) and use conditional statements to assign a grade (e.g., A, B, C, D, or F) based on the score.
+
+#Number Comparison: Write a program that takes two numbers as input and displays which one is larger, or if they are equal.
+
+#Discount Calculator: Ask the user for the original price of an item. If the price is over a certain threshold (e.g., $100), apply a discount (e.g., 10%) and display the final price; otherwise, display the original price.
+
+#Simple Authentication System: Create a program that prompts the user for a username and password. If the input matches predefined values, display "Access Granted"; otherwise, display "Access Denied."
+
+#Triangle Type Checker: Prompt the user for three side lengths and use conditional statements to determine whether the triangle is equilateral, isosceles, or scalene.
+
+#Eligibility Checker: Write a program that takes a person’s age and checks if they are eligible to vote (e.g., 18 and older).
+
+#Positive, Negative, or Zero: Ask the user to enter a number and display whether it is positive, negative, or zero.
+
+#Day of the Week: Ask the user for a number between 1 and 7, then display the corresponding day of the week (e.g., 1 for Monday, 2 for Tuesday, etc.). Handle numbers outside this range with an error message.
+
+#Electricity Bill Calculator: Based on the user’s energy consumption in kWh, calculate the bill amount based on rate slabs (e.g., different rates for the first 100 kWh, next 200 kWh, etc.).
+
+#Multiples of 3 or 5 Checker: Write a program that asks the user for a number and displays whether it is a multiple of 3, 5, both, or neither.
+
+#Income Tax Calculator: Take an income amount as input and calculate tax based on predefined brackets (e.g., different percentages for ranges of income).
+
+#Character Type Identifier: Ask the user for a single character and check whether it is a vowel, consonant, digit, or special character. Display an appropriate message.
+
+#Quadrant Checker: Take the x and y coordinates of a point as input and use conditional statements to determine in which quadrant of the Cartesian plane the point lies, or if it is on an axis.
+
+1.3 REPETITION
+
+#Prime Number Checker: Write a program that asks the user for a number and uses a loop to determine if the number is prime. Display an appropriate message based on the result.
+
+#Factorial Calculator: Prompt the user for a positive integer and calculate its factorial using a loop.
+
+#Guess the Number Game: Create a program that generates a random number within a certain range (e.g., 1-100) and prompts the user to guess it. Give feedback if the guess is too high or too low, and allow the user to keep guessing until they get it right.
+
+#Multiplication Table Generator: Ask the user for a number and display its multiplication table up to 10 using a loop.
+
+#Fibonacci Sequence Generator: Prompt the user for the number of terms they want in the Fibonacci sequence, and use a loop to generate and display that many terms.
+
+#Average Calculator for Multiple Scores: Write a program that continuously prompts the user to enter scores. Use a loop to calculate the average of these scores, and allow the user to stop entering scores by typing a specific command (e.g., “done”).
+
+#Sum of Digits: Prompt the user for a number and use a loop to calculate the sum of its digits. Display the result.
+
+#ATM Withdrawal Simulation: Write a program that simulates an ATM withdrawal process. Prompt the user for an amount and calculate the number of each denomination (e.g., $50, $20, $10 bills) needed to dispense the amount. Use loops and conditional logic to handle different denominations.
+
+#Pattern Printing: Ask the user for a number and use nested loops to print a right-aligned triangle of stars (*) with that many rows.
+
+#Palindrome Checker: Prompt the user for a word or number and use a loop to check if it is a palindrome (reads the same forward and backward). Display an appropriate message based on the result.
+
+#Password Validator: Create a program that asks the user to enter a password. Use conditional statements to check that it meets criteria (e.g., minimum length, contains numbers and special characters), and prompt the user to re-enter if it doesn’t meet requirements. Repeat until a valid password is entered.
+
+#Countdown Timer: Ask the user for a number of seconds and use a loop to count down from that number, displaying each second until reaching zero.
+
+#Number Guessing with Attempts Limit: Write a guessing game that limits the user to a fixed number of attempts (e.g., 5) to guess a randomly generated number. Use a loop to handle the attempts and display a message if the user runs out of tries.
+
+#Divisors of a Number: Prompt the user for a number and use a loop to find all divisors of that number, displaying each divisor.
+
+#Password Strength Checker: Create a program that asks the user for a password and calculates its strength based on criteria (e.g., length, use of uppercase, lowercase, digits, and symbols). Use conditional logic and loops to check each criterion and display a strength rating.
+
+2 EXPLORE
+
+
+
+2.1 COLLECTIONS
+
+#Unique Number List: Write a program that prompts the user to enter numbers until they decide to stop. Store each unique number in a list, ignoring duplicates, and display the list at the end.
+
+#Shopping Cart System: Create a program that allows the user to add items to a shopping cart. Use a loop to continually prompt the user to add items, store each item in a list, and give them an option to view the cart, remove items, or quit.
+
+#Grade Statistics Calculator: Prompt the user to input grades and store them in a list. Use loops and conditional statements to calculate and display the average, highest, and lowest grades.
+
+#Word Occurrence Counter: Ask the user for a sentence, split it into words, and store each word in a list. Use a loop and conditional structure to count and display the occurrence of each word.
+
+#List Reversal: Prompt the user for a list of numbers, store them in a list, and use a loop to reverse the list without using built-in functions.
+
+#Contact List Manager: Create a program that allows the user to add, view, and delete contacts from a list. Each contact should have a name and phone number. Use a loop to provide options for managing the contact list.
+
+#Find All Prime Numbers in a List: Prompt the user to enter a list of numbers, and then use loops and conditionals to check each number for primality. Store and display only the prime numbers from the list.
+
+#Temperature Data Analyzer: Ask the user to enter daily temperatures for a week. Store the temperatures in a list and use a loop to calculate the average temperature. Display temperatures above the average.
+
+#Duplicate Finder: Prompt the user for a list of numbers and use loops and conditionals to identify any duplicate numbers in the list. Display the duplicates, if any, at the end.
+
+#Even and Odd Separator: Ask the user for a list of numbers, store them in a list, and use loops and conditionals to separate the even and odd numbers into two different lists. Display both lists.
+
+#Top Three Scores: Prompt the user to input multiple test scores and store them in a list. Use sorting and slicing techniques or loops to identify and display the top three highest scores.
+
+#List Intersection Finder: Ask the user to enter two separate lists of numbers and use loops and conditionals to find the common elements (intersection) between the two lists. Display the result.
+
+#Remove Duplicates from List: Ask the user to input a list of numbers, and then remove duplicates by creating a new list with only unique elements. Display the list of unique numbers.
+
+#Anagram Checker: Prompt the user for two words and store the characters of each word in separate lists. Use sorting and conditional structures to determine if the words are anagrams.
+
+#Sum of Positive and Negative Numbers: Ask the user to input a list of numbers. Use loops and conditionals to separate positive and negative numbers into different lists, and calculate the sum of each list. Display the sums.
+
+
+
+2.2 FUNCTIONS
+
+#Student Gradebook Manager: Create a program with functions to add, delete, and view student grades stored in a list. Implement a function to calculate the average grade and display students with grades above the average.
+
+#Prime Number List Generator: Write a function that accepts a number as input and returns a list of all prime numbers up to that number. Use a loop and conditional logic within the function to check for primes.
+
+#Contact Book with Search Functionality: Implement a contact list with functions to add, delete, and search for contacts by name. Each contact should include name and phone number, stored in a list of dictionaries.
+
+#Shopping Cart with Total Calculator: Create a shopping cart program with functions to add items (name and price) to a list, remove items, and calculate the total cost of items in the cart.
+
+#Sentence Word Counter: Write a program with a function that takes a sentence as input, splits it into words, and returns a dictionary with each word as a key and its frequency as the value.
+
+#Temperature Statistics: Create a program with functions to input daily temperatures into a list, calculate the average temperature, and display temperatures above the average. Implement a separate function to display the highest and lowest temperatures.
+
+#Factorial List Generator: Write a function that takes a list of numbers and returns a new list containing the factorial of each number. Use a loop and conditionals within the function to calculate each factorial.
+
+#Password Strength Checker: Implement a function to check password strength based on length, use of numbers, uppercase letters, and special characters. Prompt the user to enter passwords until they enter a strong one, then store all entries in a list.
+
+#Expense Tracker: Create a program with functions to add, remove, and view expenses (description and amount) stored in a list. 
+Include a function to calculate the total of all expenses.
+
+#List Intersection Finder: Write a function that takes two lists as input and returns a new list containing only the common elements. Use loops and conditionals to find the intersection.
+
+#Unique Elements Extractor: Implement a function that takes a list with duplicate items and returns a new list with only unique items. Use a loop and conditionals to filter duplicates.
+
+#String Reverse and Palindrome Checker: Write a function that accepts a string, returns its reverse, and checks if it is a palindrome. Store all strings entered by the user in a list and display those that are palindromes.
+
+#Frequency Counter in List: Create a function that takes a list and returns a dictionary with each unique element as a key and its frequency as the value. Use a loop and conditional statements within the function.
+
+-Top Three Numbers Finder: Implement a function that takes a list of numbers and returns the top three highest values. Use sorting and slicing within the function, or loops and conditional logic to find the top values.
+
+-Number to Words Converter: Write a function that accepts a list of single-digit numbers and returns a new list where each number is converted to its corresponding English word (e.g., 1 becomes "one"). Use conditional logic to match numbers to words.
+
+
+2.3 STRINGS
+
+Password Validator with Requirements Display: Write a function to check if a password meets certain requirements (e.g., length, uppercase, lowercase, digit, special character). Display which requirements are missing and continue prompting the user until they enter a valid password. Store all attempts in a list.
+
+Sentence Word Lengths: Create a function that takes a sentence, splits it into words, and returns a list of tuples where each tuple contains a word and its length. Use a loop to generate and display the result.
+
+Palindrome Finder in a Sentence: Write a program with a function that takes a sentence, splits it into words, and checks if each word is a palindrome. Display only the palindromic words in a list.
+Character Frequency Counter: Implement a function that takes a string as input and returns a dictionary with the frequency of each character (ignoring spaces). Use a loop to populate the dictionary and display the result.
+Acronym Generator: Write a function that accepts a phrase (e.g., “random access memory”) and returns its acronym (“RAM”). Convert the phrase to uppercase and store each acronym in a list.
+Title Case Converter: Create a function that takes a sentence and returns it in title case (where each word starts with a capital letter). Use loops and string methods to format the sentence.
+Vowel and Consonant Counter: Write a function that accepts a string and returns the count of vowels and consonants as a dictionary. Use conditionals to check each character and loops to iterate over the string.
+Find Longest Word in a Sentence: Implement a function that takes a sentence, splits it into words, and finds the longest word. Display the longest word along with its length.
+Caesar Cipher Encoder: Create a function that accepts a string and a shift value, then returns the string encoded using the Caesar cipher technique. Use loops and conditional logic to handle shifting letters and wrap around for alphabet boundaries.
+Remove Duplicate Words: Write a function that takes a sentence and returns it with duplicate words removed, preserving the order of the first occurrence of each word. Use a list to store unique words and a loop to filter duplicates.
+Word Frequency Counter in Text: Write a function that takes a string of text, splits it into words, and returns a dictionary with each unique word as the key and its frequency as the value.
+Reverse Words in a Sentence: Create a function that accepts a sentence and returns it with each word reversed, but the word order maintained. Use loops to reverse individual words and join them back together.
+Pig Latin Converter: Write a function that takes a sentence and translates each word to Pig Latin (move the first consonant to the end and add "ay"; for words starting with vowels, add "yay" at the end). Use conditionals and loops to apply the transformations.
+Extract Hashtags from Text: Create a function that scans a string for words starting with # (hashtags) and returns a list of these hashtags. Use string manipulation to detect and extract them.
+Find Common Words Between Two Sentences: Write a function that takes two sentences as inputs and returns a list of common words between them. Use loops and conditionals to find matching words and ignore case sensitivity.
+
+3 EXPANSION
+
+
+
+3.1 SQL
+
+#User Registration System: Create a function that accepts user details (name, email, password), validates them (e.g., email format, password length), and stores them in an SQL database. Implement another function to check if the email is already registered.
+
+#Product Inventory System: Write a function to add products (name, price, quantity) to an inventory list, then store them in an SQL database. Include functions to update quantity or price and to display all products.
+
+#Customer Search System: Develop a program with a function that allows users to search for customers by name. Query the SQL database and return a list of matching customer records. Use string manipulation to allow partial matches.
+
+#Order Summary with SQL Join: Write functions to add customer and order data into separate SQL tables. Create a function that generates an order summary by joining these tables and displaying the result.
+
+#Frequent Customer Finder: Create a function that queries the database to find customers who have placed multiple orders. Use SQL aggregation (e.g., GROUP BY and COUNT) to identify frequent customers and return the results as a list.
+
+#Movie Rating System: Build a program where users can rate movies. Store the data in an SQL database, and use a function to calculate the average rating for each movie. Display movies with a rating above a certain threshold.
+
+#Top 5 Products by Sales: Write a function that calculates total sales for each product and displays the top 5 selling products using an SQL ORDER BY clause and a LIMIT query.
+
+#Employee Attendance Tracker: Create functions to log employee attendance and save it in an SQL database. Implement another function to check if any employee has missed multiple days by querying attendance records.
+
+#Customer Order History: Develop a program with functions to add customer orders to an SQL database and retrieve the full order history for a given customer. Display the orders in chronological order.
+
+#Text-Based SQL Data Analyzer: Write a program that accepts a CSV file (text format), processes the data, and inserts it into an SQL database. Use functions to then query and analyze this data (e.g., finding totals, averages, and specific records).
+
+-Library Book Availability Checker: Build a function to search for books by title or author. Use SQL to check the availability of each book, storing each record in a list and displaying available and checked-out books separately.
+
+-Transaction Logger and Filter: Create a function to log financial transactions (date, description, amount) in an SQL database. Write another function to retrieve and filter transactions based on date or amount range.
+
+-SQL Database Cleaner: Write a function that scans a customer or product database for duplicate entries based on specific fields (e.g., email or product ID). Use SQL and string manipulation to identify and delete duplicates.
+
+-Employee Salary Calculator: Develop functions to calculate each employee’s salary, including bonuses, based on their performance rating. Store the calculated salaries in an SQL table and provide an option to display the top earners.
+
+-Keyword-Based Product Search: Create a function that searches for products in an SQL database by keywords. Use SQL LIKE statements with wildcards to allow flexible matching, and display all products that match any of the keywords.
+
+3.2 API
+
+#User Registration with Email Validation: Create a REST API endpoint to register users. Validate inputs (e.g., email format, password strength) in a function and store the data in an SQL database. Use conditional logic to check for duplicates, returning an appropriate message if the user is already registered.
+
+#Weather Data Fetcher: Build a REST API that fetches weather data for a city (using a public weather API) and stores it in a database. Create a function to retrieve and display the most recent weather information from the SQL database.
+
+#Product Inventory Management API: Develop a REST API for managing product inventory. Implement endpoints to add, update, and delete products. Each endpoint should call SQL functions to perform the actions on the database.
+
+Customer Order Management System: Create a REST API with endpoints to create, update, and view customer orders. Store order information in an SQL database and implement functions to calculate totals and check stock availability.
+
+Book Recommendation System: Develop an API endpoint that recommends books based on a keyword. Fetch book data from a database using SQL, and return relevant results by matching keywords using string manipulation.
+
+Employee Attendance Tracker with REST API: Build an API to log employee attendance. Implement endpoints to record, retrieve, and analyze attendance data. Use SQL functions to calculate absences and identify any missed days over a specified threshold.
+
+Top Products by Sales API: Create an endpoint to retrieve the top 5 best-selling products. Use an SQL ORDER BY and LIMIT query in a function and return the results in JSON format.
+
+Expense Tracker with Filtering: Build a REST API that allows users to add expenses (amount, category, date) and retrieve them based on date or category filters. Store expense data in an SQL database and use conditional structures to apply filters in the query.
+
+User Authentication System: Create a REST API with endpoints for user registration, login, and authentication. Store user credentials in an SQL database and use functions to check login validity, returning an authentication token upon successful login.
+
+Movie Rating and Recommendation API: Develop an API to allow users to rate movies. Store movie and rating data in an SQL database, then create an endpoint to recommend movies based on average ratings. Use SQL and list functions to filter movies above a certain rating.
+
+Order History Viewer: Implement an API with endpoints to view a customer’s order history and details. Use an SQL join to retrieve order details and display them in chronological order. Apply string manipulation to format the data.
+
+Event Scheduler and Viewer: Create an API to schedule events (title, date, time) and store them in an SQL database. Implement an endpoint to retrieve upcoming events, using SQL and date filtering.
+
+Library Book Availability Checker API: Build an API to manage library book records, including adding, deleting, and checking availability. Use SQL for storage and conditional logic to determine availability, returning available books in JSON.
+
+Product Price Calculator with Discount: Develop an API endpoint that calculates the total price of a list of products, including discount logic based on quantity. Retrieve product data from SQL, apply discount conditions in a function, and return the final price.
+
+Customer Feedback API with Analysis: Create an API for users to submit feedback on products. Store feedback in SQL, and implement an endpoint to retrieve and analyze feedback for specific products. Use functions to parse keywords and generate insights, such as frequent words and average ratings.
+
+3.3 OOP
+
+User Registration System with OOP: Create a User class with properties such as name, email, and password. Develop a REST API to register new users, validate inputs (e.g., email format, password strength), and store user data in an SQL database. Use methods in the User class to perform validation and check for duplicates before saving to the database.
+E-Commerce Product Management API: Define a Product class with properties like name, price, quantity, and methods for updating quantity or price. Implement REST API endpoints to add, update, and delete products. Store products in an SQL database, using the Product class methods to manage and validate updates.
+Order Processing System with Order and Product Classes: Create Order and Product classes. The Order class should include a list of Product objects, with methods to calculate the total and validate stock availability. Implement a REST API to create, update, and view orders, with SQL for persistent storage.
+Library System with Book and Member Classes: Develop Book and Member classes to represent books and library members. The Book class should track title, author, availability, and the Member class should manage borrowing records. Create REST API endpoints to check out, return, and view books, with SQL to persist book and member data.
+User Authentication and Authorization: Design a User class with login and authentication methods, which includes password encryption. Implement a REST API for registration, login, and token-based authentication. Use SQL to store users and manage sessions. Apply OOP principles to encapsulate authentication logic within the User class.
+Customer Relationship Management (CRM) System: Create classes for Customer, Order, and Product. Implement a REST API for managing customers and viewing order history. Use SQL to store customer and order information and OOP methods in the Customer class to handle customer interactions and order history.
+Employee Management System: Define an Employee class with properties like name, position, salary, and methods for calculating annual salary and bonuses. Implement REST API endpoints to create, update, and retrieve employees. Store data in an SQL database, using OOP methods for business logic.
+Budgeting and Expense Tracker: Create an Expense class with properties like amount, category, and date, and methods to filter expenses by category and date range. Implement REST API endpoints to add and view expenses, using SQL for storage and object methods for filtering.
+Movie Rental System with Rating and Recommendation: Define Movie and User classes, where Movie has a ratings list property and methods to calculate average ratings. Develop REST API endpoints for users to rate movies and retrieve recommendations based on ratings. Store data in SQL and handle logic through class methods.
+Inventory Management System with Stock Updates: Create Product and Inventory classes, where Inventory contains a list of Product instances. Implement a REST API for inventory management, including stock updates. Use SQL for persistent storage and methods within the Inventory class to calculate low-stock products.
+Financial Transaction Tracker with OOP: Define Transaction and Account classes. Transactions should handle details like date, amount, and type (debit or credit), while Account manages a list of transactions and calculates the balance. Implement REST API endpoints to add transactions and view account balances, with SQL for storage.
+Survey and Feedback Management System: Create classes for Survey and Question, where each Survey contains a list of Question objects with possible answers. Develop REST API endpoints to create surveys, submit responses, and retrieve results. Store data in SQL, using methods in the Survey class to analyze responses.
+Recipe Management System with OOP and Search Functionality: Define Recipe and Ingredient classes, where each Recipe has a list of Ingredient objects. Implement REST API endpoints to create, update, and search recipes by keyword, using SQL for persistent storage and class methods for search and filtering.
+Appointment Scheduling System with Conflict Checking: Create Appointment and Calendar classes, where Calendar holds a list of Appointment objects. Implement REST API endpoints to create and view appointments, checking for scheduling conflicts. Use SQL for storage, with conflict-checking logic encapsulated in the Calendar class.
+Event Management System with Attendees and Registration: Design Event and Attendee classes. Each Event should contain a list of Attendee objects and methods to add or remove attendees. Develop REST API endpoints for event creation and attendee registration, with SQL to store event and attendee details, and use class methods for registration logic.

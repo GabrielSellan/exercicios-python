@@ -1,0 +1,34 @@
+
+from app import get_connection
+
+def listar_usuarios():
+    conn = get_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM usuarios")
+    resultados = cursor.fetchall()
+    
+    for usuario in resultados:
+        print(usuario)
+    
+    cursor.close()
+    conn.close()
+
+
+
+cursor.execute(sql) → executa um comando SQL.
+
+cursor.fetchall() → retorna todos os resultados da última consulta.
+
+cursor.fetchone() → retorna apenas a próxima linha do resultado.
+
+cursor.close() → fecha o cursor (boa prática!).
+
+
+
+cursor = conn.cursor()
+
+sql = "INSERT INTO funcionarios (nome, salario) VALUES (%s, %s)"
+valores = ("João Silva", 3500.00)
+
+cursor.execute(sql, valores)
+conn.commit()  # importante! grava a alteração no banco
